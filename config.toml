@@ -1,4 +1,16 @@
 baseURL = 'http://pyritestudios.github.io/'
 languageCode = 'en-us'
 title = 'Pyrite Studios'
-theme = 'cactus'
+theme = 'terminal'
+
+[params]
+    centerTheme = true
+    #fullWidthTheme = true
+
+[languages]
+    [languages.en]
+        title = 'Pyrite Studios'
+        copyright = '2024 Pyrite Studios'
+        [languages.en.params.logo]
+            logoText = "Pyrite Studios"
+            logoHomeLink = "/" 
